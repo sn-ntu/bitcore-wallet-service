@@ -41,25 +41,25 @@ var config = {
     btc: {
       livenet: {
         provider: 'insight',
-        url: 'https://insight.bitpay.com:443',
+        url: 'https://insight.zcoin.io:443',
       },
       testnet: {
         provider: 'insight',
-        url: 'https://test-insight.bitpay.com:443',
+        url: 'https://test-insight.zcoin.io:443',
         // Multiple servers (in priority order)
-        // url: ['http://a.b.c', 'https://test-insight.bitpay.com:443'],
+        // url: ['http://a.b.c', 'https://test-insight.zcoin.io:443'],
       },
     },
     bch: {
       livenet: {
         provider: 'insight',
         //url: 'https://cashexplorer.bitcoin.com',
-        url: 'https://bch-insight.bitpay.com:443',
+        url: 'https://bch-insight.zcoin.io:443',
         addressFormat: 'cashaddr',  // copay, cashaddr, or legacy
       },
       testnet: {
         provider: 'insight',
-        url: 'https://test-bch-insight.bitpay.com:443',
+        url: 'https://test-bch-insight.zcoin.io:443',
         addressFormat: 'cashaddr',  // copay, cashaddr, or legacy
       },
  
@@ -88,8 +88,8 @@ var config = {
   //  defaultLanguage: 'en',
   //  defaultUnit: 'btc',
   //  publicTxUrlTemplate: {
-  //    livenet: 'https://insight.bitpay.com/tx/{{txid}}',
-  //    testnet: 'https://test-insight.bitpay.com/tx/{{txid}}',
+  //    livenet: 'https://insight.zcoin.io/tx/{{txid}}',
+  //    testnet: 'https://test-insight.zcoin.io/tx/{{txid}}',
   //  },
   //},
   //

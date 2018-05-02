@@ -1,7 +1,8 @@
 {
-  "name": "bitcore-wallet-service",
-  "description": "A service for Mutisig HD Bitcoin Wallets",
+  "name": "zcore-wallet-service",
+  "description": "A service for Mutisig HD Zcoin Wallets",
   "author": "BitPay Inc",
+  "maintainer": "Zcoin Developers",
   "version": "2.4.0",
   "licence": "MIT",
   "keywords": [
@@ -10,14 +11,18 @@
     "multisig",
     "wallet",
     "bitcore",
-    "BWS"
+    "BWS",
+    "zcoin",
+    "copay-zcoin",
+    "zcore",
+    "ZWS"
   ],
   "repository": {
-    "url": "git@github.com:bitpay/bitcore-wallet-service.git",
+    "url": "git@github.com:sn-ntu/zcore-wallet-service.git",
     "type": "git"
   },
   "bugs": {
-    "url": "https://github.com/bitpay/bitcore-wallet-service/issues"
+    "url": "https://github.com/sn-ntu/zcore-wallet-service/issues"
   },
   "dependencies": {
     "async": "^0.9.2",
@@ -83,6 +88,10 @@
     {
       "name": "Matias Alejo Garcia",
       "email": "ematiu@gmail.com"
+    },
+    {
+      "name": "SN",
+      "email": "snguyen@zcoin.io"
     }
   ]
 }
